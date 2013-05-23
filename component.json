@@ -4,5 +4,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/hij1nx/EventEmitter2"
-  }
+  },
+  "main": "lib/eventemitter2.js",
+  "scripts": [
+    "lib/eventemitter2.js"
+  ]
 }
