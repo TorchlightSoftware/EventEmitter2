@@ -85,6 +85,7 @@ as the following would be observed...
    emitter.emit(['foo', 'bar']);
 ```
 
+In addition, the '**' wildcard will match multiple path segments.  So 'foo.**' will match 'foo.bar.baz.bang'.
 
 #### emitter.addListener(event, listener)
 #### emitter.on(event, listener)
